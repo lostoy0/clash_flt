@@ -35,7 +35,7 @@ class ProxyView extends StatelessWidget {
                   children: [
                     Text(proxy.name),
                     const SizedBox(height: 8),
-                    Text(proxy.type, style: textTheme.caption),
+                    Text(proxy.type, style: textTheme.bodyMedium),
                     const SizedBox(height: 8),
                     Text(
                       proxy.delay == null
